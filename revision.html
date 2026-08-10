@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JEE 2027 — Revision</title><link rel="stylesheet" href="style.css">
+</head><body>
+<script src="js/common.js"></script>
+<script>
+(async function(){
+  await Store.load();
+  const rev = (Store.data.revision||[]).map(r=>({...r,_left:dUntil(r["Next Revision"])}))
+    .sort((a,b)=>(a["Next Revision"]||"9999").localeCompare(b["Next Revision"]||"9999"));
+  const due = rev.filter(r=>r._left!==null && r._left<=0);
+  const soon = rev.filter(r=>r._left>0 && r._left<=3);
+  // mastered chapters not yet in the revision queue
+  const mastered = chapters().filter(c=>c.Status==="Mastered");
+  const inQueue = new Set(rev.map(r=>r.Topic));
+  const missing = mastered.filter(c=>!inQueue.has(c.Chapter));
+
+  shell("revision.html", `
+  <div class="grid cards" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+    <div class="card"><div class="num" style="color:var(--bad)">${due.length}</div><div class="lbl">due / overdue</div></div>
+    <div class="card"><div class="num" style="color:var(--warn)">${soon.length}</div><div class="lbl">due in 3 days</div></div>
+    <div class="card"><div class="num">${rev.length}</div><div class="lbl">topics in rotation</div></div>
+    <div class="card"><div class="num">${missing.length}</div><div class="lbl">mastered, not yet queued</div></div>
+  </div>
+
+  ${missing.length? `<h2 class="sec">Mastered chapters missing from rotation</h2>
+  <div class="panel">${missing.map(c=>`<div style="display:flex;align-items:center;gap:10px;padding:6px 0">
+    <span class="chip ${c.Subject}">${c.Subject}</span><span>${esc(c.Chapter)}</span>
+    <button class="ghost" style="margin-left:auto" onclick="queue('${esc(c.Chapter)}','${c.Subject}')">+ queue R1 in 7 days</button></div>`).join("")}
+  </div>`:""}
+
+  <h2 class="sec">Queue</h2>
+  <table class="simple"><thead><tr><th>Topic</th><th>Subject</th><th>Next revision</th><th>In</th><th>Rev #</th><th>Confidence</th><th></th></tr></thead>
+  <tbody>${rev.map(r=>{
+    const cls = r._left<=0?"rev-due":r._left<=3?"rev-soon":"";
+    return `<tr class="${cls}" data-id="${r.id}">
+    <td>${esc(r.Topic||"")}</td><td><span class="chip ${r.Subject}">${esc(r.Subject||"")}</span></td>
+    <td>${fmt(r["Next Revision"])}</td>
+    <td class="dleft ${r._left<=0?"over":""}">${r._left===null?"—":r._left<=0?(-r._left+"d over"):r._left+"d"}</td>
+    <td>R${r["Revision #"]??1}</td>
+    <td><span class="conf">${[1,2,3,4].map(i=>`<i class="${(r.Confidence||0)>=i?"f"+i:""}"></i>`).join("")}</span></td>
+    <td><button class="ghost" onclick="doneRev('${r.id}', ${r["Revision #"]||1})">done ✓</button></td></tr>`;}).join("")
+    || '<tr><td colspan="7" class="muted">Nothing in the revision rotation yet. Master a chapter, then queue it.</td></tr>'}</tbody></table>
+  <p class="muted" style="margin-top:10px;font-size:12px">Spaced repetition: R1 after 7 days → R2 after 21 → R3 after 45. "done ✓" bumps the topic to its next interval in Notion.</p>`);
+
+  window.queue = async (topic, subj)=>{
+    const d = new Date(Date.now()+7*86400000).toISOString().slice(0,10);
+    const r = await fetch("/api/add",{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({db:"revision", props:{"Topic":topic,"Subject":subj,"Next Revision":d,"Revision #":1,"Confidence":2}})});
+    const j = await r.json();
+    if(j.ok){ toast("Queued ✓"); await Store.load(true); location.reload(); }
+    else toast("Failed: "+j.error, true);
+  };
+  window.doneRev = async (id, n)=>{
+    const interval = {1:7, 2:21, 3:45}[n] || 45;
+    const d = new Date(Date.now()+interval*86400000).toISOString().slice(0,10);
+    const r = await fetch("/api/update",{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({id, field:"__rev_done", value:{next:n+1, date:d}})});
+    const j = await r.json();
+    if(j.ok){ toast("Next revision R"+(n+1)+" on "+d+" ✓"); await Store.load(true); location.reload(); }
+    else toast("Failed: "+j.error, true);
+  };
+})();
+</script>
+</body></html>

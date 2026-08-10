@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JEE 2027 — Chapters</title><link rel="stylesheet" href="style.css">
+</head><body>
+<script src="js/common.js"></script>
+<script>
+(async function(){
+  await Store.load();
+  const ch = chapters();
+  const qs = new URLSearchParams(location.search);
+  let fSubj="All", fW="All", fStatus="All", q=qs.get("q")||"", sort=qs.get("sort")||"date", dir=1;
+
+  shell("chapters.html", `
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search chapter…" value="${esc(q)}">
+    <select id="fsubj"><option>All</option>${["Physics","Chemistry","Maths"].map(s=>`<option ${fSubj===s?"selected":""}>${s}</option>`).join("")}</select>
+    <select id="fw"><option>All</option>${["High","Medium","Low"].map(s=>`<option>${s}</option>`).join("")}</select>
+    <select id="fstatus"><option>All</option>${STATUSES.map(s=>`<option>${s}</option>`).join("")}</select>
+    <div class="seg" id="sortseg">
+      <button data-s="date">By date</button><button data-s="weight">By weightage</button><button data-s="priority">By priority</button>
+    </div>
+    <span class="muted" id="count"></span>
+  </div>
+  <table class="chapters"><thead><tr>
+    <th data-k="Chapter">Chapter</th><th data-k="Subject">Subject</th><th data-k="Unit">Unit</th>
+    <th data-k="Weightage">Weight</th><th data-k="Target Date">Target</th><th>Days</th>
+    <th data-k="_prio">Priority</th><th>Status</th><th>Qs solved</th>
+  </tr></thead><tbody id="rows"></tbody></table>`);
+
+  const rows = document.getElementById("rows");
+  function render(){
+    let list = ch.filter(c =>
+      (fSubj==="All"||c.Subject===fSubj) && (fW==="All"||c.Weightage===fW) &&
+      (fStatus==="All"||c.Status===fStatus) &&
+      (!q || (c.Chapter||"").toLowerCase().includes(q.toLowerCase())));
+    const key = {date:"Target Date", weight:"Weightage", priority:"_prio"}[sort] || sort;
+    list.sort((a,b)=>{
+      let x=a[key], y=b[key];
+      if(key==="Weightage"){ x=W_RANK[x]||0; y=W_RANK[y]||0; }
+      if(x==null) return 1; if(y==null) return -1;
+      return (x<y?-1:x>y?1:0)*dir;
+    });
+    document.getElementById("count").textContent = list.length+" chapters";
+    document.querySelectorAll("#sortseg button").forEach(b=>b.classList.toggle("on", b.dataset.s===sort));
+    rows.innerHTML = list.map(c=>`
+      <tr class="${c._done?"done":""}" data-id="${c.id}">
+        <td><span class="chname">${esc(c.Chapter)}</span></td>
+        <td><span class="chip ${c.Subject}">${c.Subject}</span></td>
+        <td class="muted" style="font-size:12px">${esc(c.Unit||"")}</td>
+        <td><span class="chip ${c.Weightage}">${c.Weightage}</span></td>
+        <td>${fmt(c["Target Date"])}</td>
+        <td class="dleft ${c._overdue?"over":""}">${c._left===null?"—":c._left<0?(-c._left+"d over"):(c._left+"d")}</td>
+        <td class="prio">${c._prio}</td>
+        <td><select class="status ${statusClass(c.Status)}">
+          ${STATUSES.map(s=>`<option ${s===c.Status?"selected":""}>${s}</option>`).join("")}
+        </select><span class="savestate"></span></td>
+        <td><input class="qnum" type="number" min="0" value="${c["Questions Solved"]??0}"></td>
+      </tr>`).join("");
+
+    rows.querySelectorAll("tr").forEach(tr=>{
+      const id = tr.dataset.id;
+      const c = ch.find(x=>x.id===id);
+      tr.querySelector("select.status").addEventListener("change", async e=>{
+        const ok = await Store.update(id, "Status", e.target.value, e.target);
+        if(ok){ c.Status = e.target.value; c._done = ["Mastered","Practice Done"].includes(c.Status);
+          e.target.className = "status "+statusClass(c.Status);
+          tr.classList.toggle("done", c._done); }
+      });
+      const qn = tr.querySelector("input.qnum");
+      qn.addEventListener("change", async ()=>{
+        const ok = await Store.update(id, "Questions Solved", qn.value, qn);
+        if(ok) c["Questions Solved"] = +qn.value;
+      });
+    });
+    // deep-link focus
+    const focus = qs.get("focus");
+    if(focus){ const tr = rows.querySelector(`tr[data-id="${focus}"]`);
+      if(tr){ tr.scrollIntoView({block:"center"}); tr.style.outline="2px solid var(--accent)"; } }
+  }
+  document.getElementById("q").addEventListener("input", e=>{q=e.target.value;render();});
+  document.getElementById("fsubj").addEventListener("change", e=>{fSubj=e.target.value;render();});
+  document.getElementById("fw").addEventListener("change", e=>{fW=e.target.value;render();});
+  document.getElementById("fstatus").addEventListener("change", e=>{fStatus=e.target.value;render();});
+  document.getElementById("sortseg").addEventListener("click", e=>{
+    if(e.target.dataset.s){ sort=e.target.dataset.s; render(); }});
+  document.querySelectorAll("th[data-k]").forEach(th=>th.addEventListener("click", ()=>{
+    const k=th.dataset.k; if(sort===k) dir*=-1; else {sort=k;dir=1;} render(); }));
+  render();
+})();
+</script>
+</body></html>

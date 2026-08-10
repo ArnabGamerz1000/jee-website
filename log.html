@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JEE 2027 — Daily Log</title><link rel="stylesheet" href="style.css">
+</head><body>
+<script src="js/common.js"></script>
+<script>
+(async function(){
+  await Store.load();
+  const logs = (Store.data.daily_log||[]).sort((a,b)=>(b.Date||"").localeCompare(a.Date||""));
+  const last14 = logs.filter(l=>dUntil(l.Date)>=-14);
+  const hrs = last14.reduce((s,l)=>s+(l["Hours Studied"]||0),0);
+  const qs = last14.reduce((s,l)=>s+(l["Questions Solved"]||0),0);
+
+  shell("log.html", `
+  <div class="grid cards" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+    <div class="card"><div class="num">${logs.length}</div><div class="lbl">days logged</div></div>
+    <div class="card"><div class="num">${hrs.toFixed(1)}h</div><div class="lbl">hours · last 14 days</div></div>
+    <div class="card"><div class="num">${qs}</div><div class="lbl">questions · last 14 days</div></div>
+    <div class="card"><div class="num">${logs.length? (logs.reduce((s,l)=>s+(l["Hours Studied"]||0),0)/logs.length).toFixed(1)+"h":"—"}</div><div class="lbl">avg hours / logged day</div></div>
+  </div>
+
+  <h2 class="sec">Log today</h2>
+  <div class="panel">
+    <form class="addrow" id="f">
+      <div><label>Date</label><input name="Date" type="date" value="${new Date().toISOString().slice(0,10)}" required></div>
+      <div><label>Hours studied</label><input name="Hours Studied" type="number" step="0.5" min="0" required></div>
+      <div><label>Questions solved</label><input name="Questions Solved" type="number" min="0" value="0"></div>
+      <div><label>Mood</label><select name="Mood"><option></option><option>😀 Great</option><option>🙂 Good</option><option>😐 Okay</option><option>😞 Low</option><option>😤 Frustrated</option></select></div>
+      <div style="grid-column:1/-1"><label>Subjects touched</label>
+        <label style="display:inline;color:var(--text);margin-right:14px"><input type="checkbox" name="Physics" style="width:auto"> ⚛️ Physics</label>
+        <label style="display:inline;color:var(--text);margin-right:14px"><input type="checkbox" name="Chemistry" style="width:auto"> 🧪 Chemistry</label>
+        <label style="display:inline;color:var(--text)"><input type="checkbox" name="Maths" style="width:auto"> 📐 Maths</label></div>
+      <div style="grid-column:1/-1"><label>What I studied</label><textarea name="What I studied" rows="2" placeholder="e.g. Rotational Motion PYQs 40–90, GOC isomerism notes…"></textarea></div>
+      <div><button class="act" type="submit">Add to Notion log</button></div>
+    </form>
+  </div>
+
+  <h2 class="sec">History</h2>
+  <table class="simple"><thead><tr><th>Date</th><th>Hours</th><th>Subjects</th><th>Qs</th><th>Mood</th><th>What I studied</th></tr></thead>
+  <tbody>${logs.map(l=>`<tr>
+    <td>${fmt(l.Date)}</td><td>${l["Hours Studied"]??"—"}</td>
+    <td>${["Physics","Chemistry","Maths"].filter(s=>l[s]).map(s=>SUBJ_ICON[s]).join(" ")||"—"}</td>
+    <td>${l["Questions Solved"]??"—"}</td><td>${esc(l.Mood||"")}</td>
+    <td class="muted">${esc(l["What I studied"]||"")}</td></tr>`).join("") || '<tr><td colspan="6" class="muted">No entries yet — log your first day above.</td></tr>'}</tbody></table>`);
+
+  document.getElementById("f").addEventListener("submit", async e=>{
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    const body = {db:"daily_log", props:{
+      "Day": fd.get("Date"),
+      "Date": fd.get("Date"),
+      "Hours Studied": +fd.get("Hours Studied"),
+      "Questions Solved": +fd.get("Questions Solved"),
+      "Mood": fd.get("Mood")||null,
+      "Physics": !!fd.get("Physics"), "Chemistry": !!fd.get("Chemistry"), "Maths": !!fd.get("Maths"),
+      "What I studied": fd.get("What I studied")||""
+    }};
+    const r = await fetch("/api/add",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+    const j = await r.json();
+    if(j.ok){ toast("Logged ✓"); await Store.load(true); location.reload(); }
+    else toast("Failed: "+j.error, true);
+  });
+})();
+</script>
+</body></html>

@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JEE 2027 — Mock Tests</title><link rel="stylesheet" href="style.css">
+</head><body>
+<script src="js/common.js"></script>
+<script>
+(async function(){
+  await Store.load();
+  const mocks = (Store.data.mocks||[]).sort((a,b)=>(a.Date||"").localeCompare(b.Date||""));
+  const full = mocks.filter(m=>m.Type==="Full Mock");
+  const best = mocks.reduce((m,x)=>Math.max(m,x.Total||0),0);
+
+  shell("mocks.html", `
+  <div class="grid cards" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+    <div class="card"><div class="num">${mocks.length}</div><div class="lbl">tests taken</div></div>
+    <div class="card"><div class="num">${full.length}</div><div class="lbl">full mocks</div></div>
+    <div class="card"><div class="num">${best||"—"}</div><div class="lbl">best total</div></div>
+    <div class="card"><div class="num">${mocks.length?Math.round(mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length):"—"}</div><div class="lbl">average total</div></div>
+  </div>
+
+  <h2 class="sec">Score progression</h2>
+  <div class="panel">
+    ${mocks.length? `<div class="spark" style="height:90px">${mocks.map(m=>`<i title="${esc(m.Test||"")}: ${m.Total??0}" style="height:${Math.max(2,100*(m.Total||0)/300)}%"></i>`).join("")}</div>
+    <div class="muted" style="font-size:11px;margin-top:4px">bar height = total / 300 · hover a bar for the test name</div>`
+    : '<div class="muted">No mocks yet. Your Phase 2 plan starts full tests in November — but chapter tests count too, log them below.</div>'}
+  </div>
+
+  <h2 class="sec">Add a test</h2>
+  <div class="panel"><form class="addrow" id="f">
+    <div><label>Test name</label><input name="Test" required placeholder="e.g. NTA Abhyas #4"></div>
+    <div><label>Date</label><input name="Date" type="date" value="${new Date().toISOString().slice(0,10)}" required></div>
+    <div><label>Type</label><select name="Type"><option>Chapter</option><option>Part</option><option>Full Mock</option><option>PYQ Paper</option></select></div>
+    <div><label>Physics</label><input name="Physics" type="number" min="0" value="0"></div>
+    <div><label>Chemistry</label><input name="Chemistry" type="number" min="0" value="0"></div>
+    <div><label>Maths</label><input name="Maths" type="number" min="0" value="0"></div>
+    <div><label>Total</label><input name="Total" type="number" min="0" value="0"></div>
+    <div><label>Percentile est.</label><input name="Percentile" type="number" step="0.01" min="0"></div>
+    <div style="grid-column:1/-1"><label>Mistakes / lessons</label><textarea name="Mistakes" rows="2" placeholder="Silly errors, weak chapters, time management…"></textarea></div>
+    <div><button class="act" type="submit">Add to Notion</button></div>
+  </form></div>
+
+  <h2 class="sec">History</h2>
+  <table class="simple"><thead><tr><th>Date</th><th>Test</th><th>Type</th><th>P</th><th>C</th><th>M</th><th>Total</th><th>%ile</th><th>Mistakes</th></tr></thead>
+  <tbody>${mocks.slice().reverse().map(m=>`<tr>
+    <td>${fmt(m.Date)}</td><td>${esc(m.Test||"")}</td><td>${esc(m.Type||"")}</td>
+    <td>${m.Physics??"—"}</td><td>${m.Chemistry??"—"}</td><td>${m.Maths??"—"}</td>
+    <td><b>${m.Total??"—"}</b><div class="scorebar" style="width:70px"><i style="width:${Math.min(100,100*(m.Total||0)/300)}%"></i></div></td>
+    <td>${m["Percentile est."]??m.Percentile??"—"}</td><td class="muted" style="max-width:260px">${esc(m["Mistakes/Lessons"]||m.Mistakes||"")}</td></tr>`).join("")
+    || '<tr><td colspan="9" class="muted">No tests logged yet.</td></tr>'}</tbody></table>`);
+
+  document.getElementById("f").addEventListener("submit", async e=>{
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    const body = {db:"mocks", props:{
+      "Test": fd.get("Test"), "Date": fd.get("Date"), "Type": fd.get("Type"),
+      "Physics": +fd.get("Physics"), "Chemistry": +fd.get("Chemistry"), "Maths": +fd.get("Maths"),
+      "Total": +fd.get("Total"),
+      "Percentile est.": +fd.get("Percentile")||null,
+      "Mistakes/Lessons": fd.get("Mistakes")||""
+    }};
+    const r = await fetch("/api/add",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+    const j = await r.json();
+    if(j.ok){ toast("Added ✓"); await Store.load(true); location.reload(); }
+    else toast("Failed: "+j.error, true);
+  });
+})();
+</script>
+</body></html>

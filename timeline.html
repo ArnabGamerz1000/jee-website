@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JEE 2027 — Timeline</title><link rel="stylesheet" href="style.css">
+</head><body>
+<script src="js/common.js"></script>
+<script>
+(async function(){
+  await Store.load();
+  const ch = chapters().filter(c=>c["Target Date"]).sort((a,b)=>a["Target Date"].localeCompare(b["Target Date"]));
+  const t0 = new Date("2026-08-09"), t1 = new Date("2027-01-22");
+  const span = t1 - t0;
+  const px = d => Math.max(0, Math.min(100, 100*(new Date(d)-t0)/span));
+  const nowPx = px(new Date());
+
+  const months = [];
+  for(let d=new Date(2026,7,1); d<=t1; d=new Date(d.getFullYear(), d.getMonth()+1, 1)) months.push(new Date(d));
+
+  shell("timeline.html", `
+  <h2 class="sec">Target-date timeline <span class="muted">(red line = today)</span></h2>
+  <div class="panel gantt">
+    <div class="ghead"><div class="gname"></div><div class="gcal">
+      ${months.map(m=>`<span style="left:${px(m)}%">${m.toLocaleDateString("en-IN",{month:"short"})}</span>`).join("")}
+    </div></div>
+    ${ch.map(c=>`
+      <div class="grow">
+        <div class="gname" title="${esc(c.Chapter)}">${SUBJ_ICON[c.Subject]||""} ${esc(c.Chapter)}</div>
+        <div class="gtrack">
+          <div class="gnow" style="left:${nowPx}%"></div>
+          <div class="gbar ${c.Subject} ${c._done?"done":""}" style="left:${px(t0)}%;width:${Math.max(.6,px(c["Target Date"]))}%"></div>
+        </div>
+      </div>`).join("")}
+  </div>
+  <p class="muted" style="margin-top:10px;font-size:12px">Each bar runs from prep start (Aug 9) to that chapter's target date. Faded = Practice Done / Mastered. Edit dates in Notion or on the Chapters page; hit ↻ Sync.</p>`);
+})();
+</script>
+</body></html>
