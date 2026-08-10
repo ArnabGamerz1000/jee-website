@@ -1,0 +1,158 @@
+/* JEE 2027 Dashboard — dark theme */
+:root{
+  --bg:#0b0e14; --panel:#12161f; --panel2:#171c28; --border:#232a3a;
+  --text:#e6e9f0; --muted:#8b93a7; --accent:#6c8cff;
+  --phys:#5aa2ff; --chem:#4ade80; --math:#c084fc;
+  --high:#f87171; --med:#fbbf24; --low:#64748b;
+  --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+  --r:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.5 "Segoe UI",system-ui,sans-serif;-webkit-font-smoothing:antialiased;
+  opacity:0;transform:translateY(6px);transition:opacity .22s ease,transform .22s ease;
+  animation:bodyin .01s .6s forwards} /* safety: never leave the page invisible if JS fails */
+@keyframes bodyin{to{opacity:1;transform:none}}
+body.ready{opacity:1;transform:none}
+body.leaving{opacity:0;transform:translateY(-4px);transition-duration:.15s}
+a{color:var(--accent);text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 80px}
+
+/* header */
+header.top{position:sticky;top:0;z-index:20;background:rgba(11,14,20,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.topin{display:flex;align-items:center;gap:16px;padding:14px 20px;max-width:1180px;margin:0 auto;flex-wrap:wrap}
+.logo{font-weight:700;font-size:16px;letter-spacing:.3px}
+.logo em{font-style:normal;color:var(--accent)}
+.countdown{margin-left:auto;text-align:right}
+.countdown b{font-size:20px;color:var(--accent);font-variant-numeric:tabular-nums}
+.countdown span{display:block;font-size:11px;color:var(--muted)}
+nav{display:flex;gap:2px;max-width:1180px;margin:0 auto;padding:0 20px 12px;flex-wrap:wrap}
+nav button{background:none;border:1px solid transparent;color:var(--muted);padding:7px 14px;border-radius:8px;cursor:pointer;font-size:13px}
+nav button:hover{color:var(--text)}
+nav button.on{background:var(--panel2);border-color:var(--border);color:var(--text)}
+
+/* generic */
+.panel{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:18px}
+.grid{display:grid;gap:14px}
+h2.sec{font-size:15px;margin:26px 0 12px;color:var(--text)}
+.muted{color:var(--muted)}
+.hidden{display:none!important}
+button.act{background:var(--accent);border:0;color:#0b0e14;font-weight:600;padding:8px 14px;border-radius:8px;cursor:pointer}
+button.ghost{background:none;border:1px solid var(--border);color:var(--muted);padding:7px 12px;border-radius:8px;cursor:pointer}
+button.ghost:hover{color:var(--text);border-color:var(--accent)}
+
+/* overview cards */
+.cards{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:20px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--r);padding:16px}
+.card .num{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
+.card .lbl{font-size:12px;color:var(--muted);margin-top:2px}
+.card .bar{height:5px;background:var(--panel2);border-radius:3px;margin-top:10px;overflow:hidden}
+.card .bar i{display:block;height:100%;background:var(--accent);border-radius:3px;transition:width .6s}
+
+/* hover detail tooltips on overview cards */
+.card.hastip{position:relative}
+.card.hastip:hover{border-color:var(--accent)}
+.card .tip{position:absolute;left:50%;top:100%;width:min(320px,86vw);z-index:60;
+  padding-top:12px; /* bridges the card→tooltip gap so hover is continuous */
+  opacity:0;visibility:hidden;pointer-events:none;
+  transform:translate(-50%,-6px) scale(.97);
+  transition:opacity .18s ease,transform .22s cubic-bezier(.2,.8,.3,1.15),visibility .18s}
+.card .tip::after{content:"";position:absolute;top:5px;left:50%;transform:translateX(-50%);
+  border:7px solid transparent;border-bottom-color:var(--border)}
+.card .tipin{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:10px 12px;
+  box-shadow:0 14px 34px rgba(0,0,0,.55);max-height:260px;overflow-y:auto;scrollbar-width:thin;
+  font-size:12px;text-align:left}
+.card.hastip:hover .tip,.card.hastip:focus-within .tip{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0) scale(1)}
+.tip .tiphead{font-weight:600;margin-bottom:6px;color:var(--text)}
+.tip .ti{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:3px 0}
+.tip .ti .st{color:var(--muted);font-size:11px;white-space:nowrap}
+.tip .spark{height:56px;margin-top:2px}
+
+/* next-up list */
+.nextup .row{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;margin-bottom:8px;background:var(--panel)}
+.nextup .row.overdue{border-color:rgba(248,113,113,.4)}
+.chip{font-size:11px;padding:2px 9px;border-radius:99px;white-space:nowrap}
+.chip.Physics{background:rgba(90,162,255,.15);color:var(--phys)}
+.chip.Chemistry{background:rgba(74,222,128,.15);color:var(--chem)}
+.chip.Maths{background:rgba(192,132,252,.15);color:var(--math)}
+.chip.High{background:rgba(248,113,113,.15);color:var(--high)}
+.chip.Medium{background:rgba(251,191,36,.15);color:var(--med)}
+.chip.Low{background:rgba(100,116,139,.2);color:#94a3b8}
+.dleft{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.dleft.over{color:var(--bad);font-weight:600}
+
+/* controls bar */
+.controls{display:flex;gap:10px;align-items:center;margin:18px 0 14px;flex-wrap:wrap}
+.controls input[type=search]{background:var(--panel);border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:8px;width:220px;outline:none}
+.controls select{background:var(--panel);border:1px solid var(--border);color:var(--text);padding:8px 10px;border-radius:8px}
+.controls .seg{display:flex;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.controls .seg button{background:none;border:0;color:var(--muted);padding:8px 12px;cursor:pointer;font-size:12px}
+.controls .seg button.on{background:var(--panel2);color:var(--text)}
+
+/* chapter table */
+table.chapters{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+table.chapters th{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
+table.chapters th:hover{color:var(--text)}
+table.chapters td{padding:9px 12px;border-bottom:1px solid var(--border);font-size:13px;vertical-align:middle}
+table.chapters tr:last-child td{border-bottom:0}
+table.chapters tr.done td .chname{color:var(--muted);text-decoration:line-through}
+.chname{font-weight:500}
+select.status{background:var(--panel2);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:6px;font-size:12px;cursor:pointer}
+select.status.s0{color:#94a3b8} select.status.s1{color:var(--warn)}
+select.status.s2{color:var(--phys)} select.status.s3{color:var(--chem)} select.status.s4{color:var(--ok)} select.status.s5{color:var(--math)} select.status.s6{color:var(--bad)}
+input.qnum{width:60px;background:var(--panel2);border:1px solid var(--border);color:var(--text);padding:4px 6px;border-radius:6px;font-size:12px}
+input.qnum:focus{border-color:var(--accent);outline:none}
+.prio{font-variant-numeric:tabular-nums;color:var(--muted);font-size:12px}
+.savestate{font-size:11px;color:var(--muted)}
+.savestate.err{color:var(--bad)}
+
+/* gantt */
+.gantt{overflow-x:auto;padding-bottom:6px}
+.grow{display:flex;align-items:center;gap:10px;margin-bottom:5px;min-width:760px}
+.grow .gname{width:230px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted)}
+.gtrack{flex:1;position:relative;height:16px;background:var(--panel2);border-radius:8px}
+.gbar{position:absolute;top:2px;bottom:2px;border-radius:6px;opacity:.85;min-width:3px}
+.gbar.Physics{background:var(--phys)} .gbar.Chemistry{background:var(--chem)} .gbar.Maths{background:var(--math)}
+.gbar.done{opacity:.35}
+.gnow{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--high);z-index:2}
+.ghead{display:flex;gap:10px;margin-bottom:8px;min-width:760px}
+.ghead .gname{width:230px}
+.ghead .gcal{flex:1;position:relative;height:14px;font-size:10px;color:var(--muted)}
+.ghead .gcal span{position:absolute;transform:translateX(-50%)}
+
+/* log / mocks forms */
+form.addrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;align-items:end;margin-bottom:16px}
+form.addrow label{font-size:11px;color:var(--muted);display:block;margin-bottom:4px}
+form.addrow input,form.addrow select,form.addrow textarea{width:100%;background:var(--panel2);border:1px solid var(--border);color:var(--text);padding:8px 10px;border-radius:8px;font-size:13px}
+form.addrow textarea{resize:vertical;min-height:38px}
+table.simple{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;margin-top:8px}
+table.simple th{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);text-align:left;padding:9px 12px;border-bottom:1px solid var(--border)}
+table.simple td{padding:8px 12px;border-bottom:1px solid var(--border);font-size:13px}
+table.simple tr:last-child td{border-bottom:0}
+.spark{display:flex;gap:3px;align-items:flex-end;height:44px;margin-top:6px}
+.spark i{flex:1;background:var(--accent);border-radius:2px 2px 0 0;min-height:2px;opacity:.8}
+.scorebar{height:6px;background:var(--panel2);border-radius:3px;overflow:hidden;margin-top:6px}
+.scorebar i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,var(--phys),var(--chem),var(--math))}
+
+/* revision */
+.conf{display:inline-flex;gap:3px}
+.conf i{width:9px;height:9px;border-radius:2px;background:var(--panel2);border:1px solid var(--border)}
+.conf i.f1{background:var(--bad)} .conf i.f2{background:var(--warn)} .conf i.f3{background:var(--phys)} .conf i.f4{background:var(--ok)}
+.rev-due{border-left:3px solid var(--bad)}
+.rev-soon{border-left:3px solid var(--warn)}
+
+/* motivational quote */
+.qline{flex:1;min-width:180px;text-align:center;font-size:12px;color:var(--muted);font-style:italic;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:4px 8px;border-radius:8px;transition:background .2s}
+.qline:hover{background:var(--panel2);color:var(--text)}
+.qline span{color:var(--accent);font-style:normal;font-size:11px}
+.qoverlay{position:fixed;inset:0;z-index:100;background:rgba(11,14,20,.96);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s;cursor:pointer}
+.qoverlay.show{opacity:1;pointer-events:auto}
+.qbig{max-width:720px;padding:40px;text-align:center}
+.qbig .qt{font-size:clamp(24px,4.5vw,42px);font-weight:700;line-height:1.3;background:linear-gradient(90deg,#6c8cff,#c084fc,#4ade80);-webkit-background-clip:text;background-clip:text;color:transparent}
+.qbig .qa{margin-top:18px;color:var(--muted);font-size:15px}
+.qbig .qhint{margin-top:40px;color:#3a4356;font-size:11px;letter-spacing:1px;text-transform:uppercase}
+
+.toast{position:fixed;bottom:20px;right:20px;background:var(--panel2);border:1px solid var(--border);padding:10px 16px;border-radius:10px;font-size:13px;opacity:0;transition:opacity .25s;z-index:50}
+.toast.show{opacity:1}
+.toast.err{border-color:var(--bad);color:var(--bad)}
+footer{margin-top:40px;text-align:center;color:var(--muted);font-size:12px}
+@media(max-width:640px){.grow .gname,.ghead .gname{width:130px}}
