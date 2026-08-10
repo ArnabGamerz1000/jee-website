@@ -1,0 +1,2981 @@
+{
+ "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+ "rows": [
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811d-a2ff-d2e011f35a10",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-08-18",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Mole Concept & Stoichiometry",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Mole Concept & Stoichiometry",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Mole-Concept-Stoichiometry-3b7f4da1663b811da2ffd2e011f35a10",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81cb-ad1c-c8c94e8c4bb3",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-08-24",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Atomic Structure",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Atomic Structure",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Atomic-Structure-3b7f4da1663b81cbad1cc8c94e8c4bb3",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8110-8497-fa1cff407e83",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "b3730a8e-496f-4774-a2bb-2205f03ce20f",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-08-30",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Redox Reactions",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Redox Reactions",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Redox-Reactions-3b7f4da1663b81108497fa1cff407e83",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81a5-9d23-f63d0cef073a",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "b3730a8e-496f-4774-a2bb-2205f03ce20f",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-08-28",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Gaseous State",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Gaseous State",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Gaseous-State-3b7f4da1663b81a59d23f63d0cef073a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811f-a3fb-db353e6bc651",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-03",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Thermodynamics (Chem)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Thermodynamics (Chem)",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Thermodynamics-Chem-3b7f4da1663b811fa3fbdb353e6bc651",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81a8-9319-f32b01f343c2",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-07",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Chemical Equilibrium",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Chemical Equilibrium",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Chemical-Equilibrium-3b7f4da1663b81a89319f32b01f343c2",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8106-87a6-c75f03aeeab3",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-12",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Ionic Equilibrium",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Ionic Equilibrium",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Ionic-Equilibrium-3b7f4da1663b810687a6c75f03aeeab3",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8165-893d-f0ceea9e559d",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-17",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Electrochemistry",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Electrochemistry",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Electrochemistry-3b7f4da1663b8165893df0ceea9e559d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81d1-8a99-cdd87e1d7359",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-21",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Chemical Kinetics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Chemical Kinetics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Chemical-Kinetics-3b7f4da1663b81d18a99cdd87e1d7359",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811e-a8db-f70f2aed265e",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Solutions & Colligative Properties",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Solutions & Colligative Properties",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Solutions-Colligative-Properties-3b7f4da1663b811ea8dbf70f2aed265e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81f8-978f-cdae3b1526ed",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "561da00a-1c8b-4f22-960b-0142a98da370",
+      "name": "Physical Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "0b709e4e-a882-4dfd-a0a9-1ee37e72ef03",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-11-18",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Surface Chemistry",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Surface Chemistry",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Surface-Chemistry-3b7f4da1663b81f8978fcdae3b1526ed",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81d9-b1b2-e579ebe9e8f7",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-08-27",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "GOC (Inductive, Resonance, Hyperconjugation)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "GOC (Inductive, Resonance, Hyperconjugation)",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/GOC-Inductive-Resonance-Hyperconjugation-3b7f4da1663b81d9b1b2e579ebe9e8f7",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8178-a3fc-d6e9d2ab7f90",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "b3730a8e-496f-4774-a2bb-2205f03ce20f",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-01",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Nomenclature & Isomerism",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Nomenclature & Isomerism",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Nomenclature-Isomerism-3b7f4da1663b8178a3fcd6e9d2ab7f90",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811c-8aa7-c62080d99f05",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-10",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Hydrocarbons (Alkanes/Alkenes/Alkynes/Arenes)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Hydrocarbons (Alkanes/Alkenes/Alkynes/Arenes)",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Hydrocarbons-Alkanes-Alkenes-Alkynes-Arenes-3b7f4da1663b811c8aa7c62080d99f05",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-815e-9fcf-f1ceb60a9fde",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "b3730a8e-496f-4774-a2bb-2205f03ce20f",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-15",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Haloalkanes & Haloarenes",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Haloalkanes & Haloarenes",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Haloalkanes-Haloarenes-3b7f4da1663b815e9fcff1ceb60a9fde",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8104-a10d-c5e08eac54ff",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-23",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Alcohols, Phenols & Ethers",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Alcohols, Phenols & Ethers",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Alcohols-Phenols-Ethers-3b7f4da1663b8104a10dc5e08eac54ff",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81a4-8675-dcf44009459d",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-09-28",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Aldehydes & Ketones",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Aldehydes & Ketones",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Aldehydes-Ketones-3b7f4da1663b81a48675dcf44009459d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811e-9cc9-d3ea9021215e",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-02",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Carboxylic Acids & Derivatives",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Carboxylic Acids & Derivatives",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Carboxylic-Acids-Derivatives-3b7f4da1663b811e9cc9d3ea9021215e",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8179-b6f9-d1ee102cc1ea",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-06",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Amines",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Amines",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Amines-3b7f4da1663b8179b6f9d1ee102cc1ea",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8178-bf5c-deb30e25749c",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "b3730a8e-496f-4774-a2bb-2205f03ce20f",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-10",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Biomolecules",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Biomolecules",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Biomolecules-3b7f4da1663b8178bf5cdeb30e25749c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81ea-aae7-e9981587f307",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "0b709e4e-a882-4dfd-a0a9-1ee37e72ef03",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-11-20",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Polymers",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Polymers",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Polymers-3b7f4da1663b81eaaae7e9981587f307",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81a6-852a-e6d11b5030bf",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "0b709e4e-a882-4dfd-a0a9-1ee37e72ef03",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-11-22",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Chemistry in Everyday Life / Drugs",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Chemistry in Everyday Life / Drugs",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Chemistry-in-Everyday-Life-Drugs-3b7f4da1663b81a6852ae6d11b5030bf",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-814a-88a7-d21b601c71a7",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "86136d1f-3f9a-4758-bd84-b8c38b488cfe",
+      "name": "Organic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "b3730a8e-496f-4774-a2bb-2205f03ce20f",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-11-24",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Practical Organic Chemistry (Purification/Detection)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Practical Organic Chemistry (Purification/Detection)",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Practical-Organic-Chemistry-Purification-Detection-3b7f4da1663b814a88a7d21b601c71a7",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8185-80c5-ecf1decaba37",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-12",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Periodic Table & Periodicity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Periodic Table & Periodicity",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Periodic-Table-Periodicity-3b7f4da1663b818580c5ecf1decaba37",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8165-bb1c-cb7401980ee4",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-17",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Chemical Bonding",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Chemical Bonding",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Chemical-Bonding-3b7f4da1663b8165bb1ccb7401980ee4",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8168-819d-f7ae9f27807d",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-22",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Coordination Compounds",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Coordination Compounds",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Coordination-Compounds-3b7f4da1663b8168819df7ae9f27807d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-819d-bfbc-c0bc259dd970",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "c50bf67c-feb0-4869-b23c-4ce2bc020cd0",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "p-Block Elements",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "p-Block Elements",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/p-Block-Elements-3b7f4da1663b819dbfbcc0bc259dd970",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81a8-b5d0-f56b7b4cea59",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "b3730a8e-496f-4774-a2bb-2205f03ce20f",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-10-30",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "d & f Block Elements",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "d & f Block Elements",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/d-f-Block-Elements-3b7f4da1663b81a8b5d0f56b7b4cea59",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8175-abb1-d82a150cd9ac",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "0b709e4e-a882-4dfd-a0a9-1ee37e72ef03",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-11-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Metallurgy",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Metallurgy",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Metallurgy-3b7f4da1663b8175abb1d82a150cd9ac",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8138-92f1-e4a4b090cf28",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "0b709e4e-a882-4dfd-a0a9-1ee37e72ef03",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-11-28",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Hydrogen & s-Block",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Hydrogen & s-Block",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Hydrogen-s-Block-3b7f4da1663b813892f1e4a4b090cf28",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81af-9704-d283803a2a16",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "0b709e4e-a882-4dfd-a0a9-1ee37e72ef03",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-11-30",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Environmental Chemistry",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Environmental Chemistry",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Environmental-Chemistry-3b7f4da1663b81af9704d283803a2a16",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811b-afd0-dfefede69f99",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "801f0af2-9e61-45fc-ac8f-1eb808888361",
+    "database_id": "36d0ad49-2e5a-4d8a-bb2a-86cda8985a51"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Unit": {
+     "id": "Sxrr",
+     "type": "select",
+     "select": {
+      "id": "900970ea-37a8-4701-9dce-f9cf9c08e80f",
+      "name": "Inorganic Chem",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "_I%5EX",
+     "type": "select",
+     "select": {
+      "id": "0b709e4e-a882-4dfd-a0a9-1ee37e72ef03",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Target Date": {
+     "id": "aFh%3A",
+     "type": "date",
+     "date": {
+      "start": "2026-12-02",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Questions Solved": {
+     "id": "tiWe",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7BO%40n",
+     "type": "select",
+     "select": {
+      "id": "e2e162d8-eb61-4023-b1e8-df186472b521",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Salt Analysis / Qualitative",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Salt Analysis / Qualitative",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Salt-Analysis-Qualitative-3b7f4da1663b811bafd0dfefede69f99",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

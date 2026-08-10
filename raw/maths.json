@@ -1,0 +1,2237 @@
+{
+ "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+ "rows": [
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-816c-9fab-cc30871c37af",
+   "created_time": "2026-08-09T17:03:00.000Z",
+   "last_edited_time": "2026-08-09T17:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-08-15",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "16f3d02b-817d-4de5-8328-c62746b83890",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sets & Relations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sets & Relations",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Sets-Relations-3b7f4da1663b816c9fabcc30871c37af",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8157-8da2-e5a6f95487c7",
+   "created_time": "2026-08-09T17:03:00.000Z",
+   "last_edited_time": "2026-08-09T17:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-08-19",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Quadratic Equations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Quadratic Equations",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Quadratic-Equations-3b7f4da1663b81578da2e5a6f95487c7",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-813e-92b2-de51171e7064",
+   "created_time": "2026-08-09T17:03:00.000Z",
+   "last_edited_time": "2026-08-09T17:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-08-22",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "5906c6d7-5091-4be0-b760-d7ee9eac035f",
+      "name": "Trigonometry",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "3c5a4c91-7808-4a2a-8dba-91989098d7a4",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Trigonometric Ratios & Identities",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Trigonometric Ratios & Identities",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Trigonometric-Ratios-Identities-3b7f4da1663b813e92b2de51171e7064",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-816e-8346-e7e49f587b58",
+   "created_time": "2026-08-09T17:03:00.000Z",
+   "last_edited_time": "2026-08-09T17:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-08-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Complex Numbers",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Complex Numbers",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Complex-Numbers-3b7f4da1663b816e8346e7e49f587b58",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8135-b49f-e586b2e65d28",
+   "created_time": "2026-08-09T17:03:00.000Z",
+   "last_edited_time": "2026-08-09T17:03:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-09-02",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Sequences & Series",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Sequences & Series",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Sequences-Series-3b7f4da1663b8135b49fe586b2e65d28",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8183-bc44-ef706a5c4d23",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-09-06",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Permutations & Combinations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Permutations & Combinations",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Permutations-Combinations-3b7f4da1663b8183bc44ef706a5c4d23",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81bb-801b-e58f776f32fc",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-09-09",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "3c5a4c91-7808-4a2a-8dba-91989098d7a4",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Binomial Theorem",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Binomial Theorem",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Binomial-Theorem-3b7f4da1663b81bb801be58f776f32fc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81c5-b83f-fc37795266de",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-09-14",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Matrices & Determinants",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Matrices & Determinants",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Matrices-Determinants-3b7f4da1663b81c5b83ffc37795266de",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-818a-8e6a-d49d6223aebf",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-09-19",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "5906c6d7-5091-4be0-b760-d7ee9eac035f",
+      "name": "Trigonometry",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "3c5a4c91-7808-4a2a-8dba-91989098d7a4",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Trigonometric Equations & Inverse Functions",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Trigonometric Equations & Inverse Functions",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Trigonometric-Equations-Inverse-Functions-3b7f4da1663b818a8e6ad49d6223aebf",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-819c-b7fe-c960ef25e5a4",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-09-22",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Probability",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Probability",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Probability-3b7f4da1663b819cb7fec960ef25e5a4",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81ca-b3df-e58bcb23a9bd",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-09-27",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "3c5a4c91-7808-4a2a-8dba-91989098d7a4",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Statistics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Statistics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Statistics-3b7f4da1663b81cab3dfe58bcb23a9bd",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8154-ba5e-e9400763bb0c",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-10-01",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "4540e0c8-81d6-4a7c-a459-8572d58ebafb",
+      "name": "Coordinate Geometry",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Straight Lines",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Straight Lines",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Straight-Lines-3b7f4da1663b8154ba5ee9400763bb0c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8143-a8dd-cf4d21e2d518",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-10-05",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "4540e0c8-81d6-4a7c-a459-8572d58ebafb",
+      "name": "Coordinate Geometry",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Circles",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Circles",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Circles-3b7f4da1663b8143a8ddcf4d21e2d518",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8124-95cc-c4b82ad5b149",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-10-09",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "4540e0c8-81d6-4a7c-a459-8572d58ebafb",
+      "name": "Coordinate Geometry",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "3c5a4c91-7808-4a2a-8dba-91989098d7a4",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Parabola",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Parabola",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Parabola-3b7f4da1663b812495ccc4b82ad5b149",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81b2-85f6-c6656546e657",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-10-14",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "4540e0c8-81d6-4a7c-a459-8572d58ebafb",
+      "name": "Coordinate Geometry",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "3c5a4c91-7808-4a2a-8dba-91989098d7a4",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Ellipse & Hyperbola",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Ellipse & Hyperbola",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Ellipse-Hyperbola-3b7f4da1663b81b285f6c6656546e657",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8107-8957-e22e41160141",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-10-18",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "8dd6ea47-e256-41bb-a78e-0f2c3ff8df84",
+      "name": "Calculus",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Limits, Continuity & Differentiability",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Limits, Continuity & Differentiability",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Limits-Continuity-Differentiability-3b7f4da1663b81078957e22e41160141",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8179-a49a-dd6981119315",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-10-23",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "8dd6ea47-e256-41bb-a78e-0f2c3ff8df84",
+      "name": "Calculus",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Differentiation & Applications of Derivatives",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Differentiation & Applications of Derivatives",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Differentiation-Applications-of-Derivatives-3b7f4da1663b8179a49add6981119315",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81b3-a2c7-e02e35b510ff",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-10-28",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "8dd6ea47-e256-41bb-a78e-0f2c3ff8df84",
+      "name": "Calculus",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Indefinite Integration",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Indefinite Integration",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Indefinite-Integration-3b7f4da1663b81b3a2c7e02e35b510ff",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81f3-9288-c4c0a3da3c31",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-11-02",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "8dd6ea47-e256-41bb-a78e-0f2c3ff8df84",
+      "name": "Calculus",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Definite Integration & Area Under Curves",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Definite Integration & Area Under Curves",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Definite-Integration-Area-Under-Curves-3b7f4da1663b81f39288c4c0a3da3c31",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8152-aaf5-d638dfc9f6b1",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-11-05",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "8dd6ea47-e256-41bb-a78e-0f2c3ff8df84",
+      "name": "Calculus",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Differential Equations",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Differential Equations",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Differential-Equations-3b7f4da1663b8152aaf5d638dfc9f6b1",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-815e-af8d-c4701a512076",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-11-09",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "2864fd8a-fb13-472f-8bb4-5a75ece338bc",
+      "name": "Vectors & 3D",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Vector Algebra",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Vector Algebra",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Vector-Algebra-3b7f4da1663b815eaf8dc4701a512076",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-816c-9575-fe34e93e6571",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-11-13",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "2864fd8a-fb13-472f-8bb4-5a75ece338bc",
+      "name": "Vectors & 3D",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "186e06c5-ef3a-4c21-bd50-52da638f8cc9",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "3D Geometry",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "3D Geometry",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/3D-Geometry-3b7f4da1663b816c9575fe34e93e6571",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-817d-abe0-e1004647157d",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-12-04",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "5906c6d7-5091-4be0-b760-d7ee9eac035f",
+      "name": "Trigonometry",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "16f3d02b-817d-4de5-8328-c62746b83890",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Properties of Triangles / Heights & Distances",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Properties of Triangles / Heights & Distances",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Properties-of-Triangles-Heights-Distances-3b7f4da1663b817dabe0e1004647157d",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8138-b4f4-d45165688c7d",
+   "created_time": "2026-08-09T17:02:00.000Z",
+   "last_edited_time": "2026-08-09T17:02:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0e0122a0-75ce-4131-971c-3c1ca967ae86",
+    "database_id": "a617d95a-74da-44f0-949f-f0fb5e553213"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Target Date": {
+     "id": "AwQc",
+     "type": "date",
+     "date": {
+      "start": "2026-12-06",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "CM%7Df",
+     "type": "select",
+     "select": {
+      "id": "a95eb04e-c56c-442b-9c0c-3138f8b3fb40",
+      "name": "Algebra",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "gB%3Ef",
+     "type": "select",
+     "select": {
+      "id": "16f3d02b-817d-4de5-8328-c62746b83890",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Questions Solved": {
+     "id": "l%5Bf%3B",
+     "type": "number",
+     "number": 0
+    },
+    "Status": {
+     "id": "%7Br%3C%3F",
+     "type": "select",
+     "select": {
+      "id": "a77091aa-c5af-43b5-bd7e-db43d9a73c07",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Mathematical Reasoning",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Mathematical Reasoning",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Mathematical-Reasoning-3b7f4da1663b8138b4f4d45165688c7d",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

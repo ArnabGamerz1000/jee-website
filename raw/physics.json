@@ -1,0 +1,2516 @@
+{
+ "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+ "rows": [
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81d0-9608-d59e5f0c95ef",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-08-20",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Kinematics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Kinematics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Kinematics-3b7f4da1663b81d09608d59e5f0c95ef",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-818f-8026-f3a372f285ad",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-08-25",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Laws of Motion",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Laws of Motion",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Laws-of-Motion-3b7f4da1663b818f8026f3a372f285ad",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81ef-9e6a-fa4eac05fd1c",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-08-30",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Work, Energy & Power",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Work, Energy & Power",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Work-Energy-Power-3b7f4da1663b81ef9e6afa4eac05fd1c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-810c-8976-e842eed30c10",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-04",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Centre of Mass & Collisions",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Centre of Mass & Collisions",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Centre-of-Mass-Collisions-3b7f4da1663b810c8976e842eed30c10",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81f5-b125-ee5e71458e65",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-08",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Rotational Motion",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Rotational Motion",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Rotational-Motion-3b7f4da1663b81f5b125ee5e71458e65",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81a2-8f0e-c3744d0c6432",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-12",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Gravitation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Gravitation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Gravitation-3b7f4da1663b81a28f0ec3744d0c6432",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8163-baa9-ced22e9a2e77",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-16",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Fluid Mechanics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Fluid Mechanics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Fluid-Mechanics-3b7f4da1663b8163baa9ced22e9a2e77",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81c7-a833-faea1ec5cc1b",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-18",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "46576464-9275-44ff-9d2e-95d2a9f9c72d",
+      "name": "Mechanics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "3d8b6743-da0a-4b84-b210-b350b669aaa6",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Properties of Solids (Elasticity)",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Properties of Solids (Elasticity)",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Properties-of-Solids-Elasticity-3b7f4da1663b81c7a833faea1ec5cc1b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-810e-a979-c96c6a65a74b",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-20",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "ff3cffe8-5892-4ca3-831d-43648e906970",
+      "name": "Thermal",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Thermal Properties of Matter",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Thermal Properties of Matter",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Thermal-Properties-of-Matter-3b7f4da1663b810ea979c96c6a65a74b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8181-95c8-df9fe12ac188",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-24",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "ff3cffe8-5892-4ca3-831d-43648e906970",
+      "name": "Thermal",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Thermodynamics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Thermodynamics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Thermodynamics-3b7f4da1663b818195c8df9fe12ac188",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811a-812c-ea0de3944b7a",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-26",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "ff3cffe8-5892-4ca3-831d-43648e906970",
+      "name": "Thermal",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Kinetic Theory of Gases",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Kinetic Theory of Gases",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Kinetic-Theory-of-Gases-3b7f4da1663b811a812cea0de3944b7a",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81b7-9bf3-d0fa0cd62a14",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-09-29",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "10887dcb-785d-45e6-b4d1-29d74dff2a28",
+      "name": "Waves & SHM",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Simple Harmonic Motion",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Simple Harmonic Motion",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Simple-Harmonic-Motion-3b7f4da1663b81b79bf3d0fa0cd62a14",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81b4-bba6-ffe942f0b539",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-03",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "10887dcb-785d-45e6-b4d1-29d74dff2a28",
+      "name": "Waves & SHM",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Waves & Sound",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Waves & Sound",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Waves-Sound-3b7f4da1663b81b4bba6ffe942f0b539",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8106-bae6-c9147f6ecf26",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-08",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Electrostatics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Electrostatics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Electrostatics-3b7f4da1663b8106bae6c9147f6ecf26",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8187-a42b-d2c1cb1d2778",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-13",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Current Electricity",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Current Electricity",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Current-Electricity-3b7f4da1663b8187a42bd2c1cb1d2778",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8150-9061-df4a88ba469b",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-15",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Capacitors",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Capacitors",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Capacitors-3b7f4da1663b81509061df4a88ba469b",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8182-9103-ec64f16df3fc",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-19",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Moving Charges & Magnetism",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Moving Charges & Magnetism",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Moving-Charges-Magnetism-3b7f4da1663b81829103ec64f16df3fc",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8176-b4cc-faaa2c995c48",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-21",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "3d8b6743-da0a-4b84-b210-b350b669aaa6",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Magnetism & Matter",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Magnetism & Matter",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Magnetism-Matter-3b7f4da1663b8176b4ccfaaa2c995c48",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-811b-9e5a-de120bb89e26",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-24",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Electromagnetic Induction",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Electromagnetic Induction",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Electromagnetic-Induction-3b7f4da1663b811b9e5ade120bb89e26",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81b1-aedf-ded44f298b42",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-27",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Alternating Current",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Alternating Current",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Alternating-Current-3b7f4da1663b81b1aedfded44f298b42",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-819e-b4cb-f03db09514f6",
+   "created_time": "2026-08-09T16:57:00.000Z",
+   "last_edited_time": "2026-08-09T16:57:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-10-29",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "36d76d43-cc9a-43c4-aae4-aadc276deb58",
+      "name": "Electromagnetism",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "3d8b6743-da0a-4b84-b210-b350b669aaa6",
+      "name": "Low",
+      "color": "green"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Electromagnetic Waves",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Electromagnetic Waves",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Electromagnetic-Waves-3b7f4da1663b819eb4cbf03db09514f6",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-812a-9a70-cdde3005ed1c",
+   "created_time": "2026-08-09T16:56:00.000Z",
+   "last_edited_time": "2026-08-09T16:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-11-03",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "8a7d5466-9e7f-4044-9bce-77680dc1f881",
+      "name": "Optics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Ray Optics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Ray Optics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Ray-Optics-3b7f4da1663b812a9a70cdde3005ed1c",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81c7-b687-f275b96f8b75",
+   "created_time": "2026-08-09T16:56:00.000Z",
+   "last_edited_time": "2026-08-09T16:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-11-06",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "8a7d5466-9e7f-4044-9bce-77680dc1f881",
+      "name": "Optics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Wave Optics",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Wave Optics",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Wave-Optics-3b7f4da1663b81c7b687f275b96f8b75",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8155-a612-c4cdcf57f7fd",
+   "created_time": "2026-08-09T16:56:00.000Z",
+   "last_edited_time": "2026-08-09T16:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-11-08",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "5dea01b7-61ee-4feb-951f-1fc4e85f14af",
+      "name": "Modern Physics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Dual Nature of Radiation",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Dual Nature of Radiation",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Dual-Nature-of-Radiation-3b7f4da1663b8155a612c4cdcf57f7fd",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-8163-b4c3-c0bf488e3829",
+   "created_time": "2026-08-09T16:56:00.000Z",
+   "last_edited_time": "2026-08-09T16:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-11-11",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "5dea01b7-61ee-4feb-951f-1fc4e85f14af",
+      "name": "Modern Physics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "85010e5e-eb48-4967-aeb0-6bed15a132eb",
+      "name": "High",
+      "color": "red"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Atoms & Nuclei",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Atoms & Nuclei",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Atoms-Nuclei-3b7f4da1663b8163b4c3c0bf488e3829",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-810e-8915-f8c8fda92d30",
+   "created_time": "2026-08-09T16:56:00.000Z",
+   "last_edited_time": "2026-08-09T16:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-11-14",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "5dea01b7-61ee-4feb-951f-1fc4e85f14af",
+      "name": "Modern Physics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Semiconductors & Electronic Devices",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Semiconductors & Electronic Devices",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Semiconductors-Electronic-Devices-3b7f4da1663b810e8915f8c8fda92d30",
+   "public_url": null,
+   "archived": false
+  },
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-81e4-b99d-f1718f8ec314",
+   "created_time": "2026-08-09T16:56:00.000Z",
+   "last_edited_time": "2026-08-09T16:56:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "3b7f4da1-663b-8129-8108-002734cf1866"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "293977a8-cdcb-477a-8523-7a3aca96f0da",
+    "database_id": "6d6b30d1-3176-40a0-94bb-a0b126d216bc"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Questions Solved": {
+     "id": "Bhmq",
+     "type": "number",
+     "number": 0
+    },
+    "Target Date": {
+     "id": "I%3C%3ET",
+     "type": "date",
+     "date": {
+      "start": "2026-11-16",
+      "end": null,
+      "time_zone": null
+     }
+    },
+    "Unit": {
+     "id": "l%7DMz",
+     "type": "select",
+     "select": {
+      "id": "5dea01b7-61ee-4feb-951f-1fc4e85f14af",
+      "name": "Modern Physics",
+      "color": "default"
+     }
+    },
+    "Weightage": {
+     "id": "pgfW",
+     "type": "select",
+     "select": {
+      "id": "0bf46538-51e8-412e-b430-ba19a9acad2a",
+      "name": "Medium",
+      "color": "yellow"
+     }
+    },
+    "Status": {
+     "id": "y%5B%7CL",
+     "type": "select",
+     "select": {
+      "id": "8229e310-5264-41cf-8432-ec1a14a770b4",
+      "name": "Not Started",
+      "color": "gray"
+     }
+    },
+    "Chapter": {
+     "id": "title",
+     "type": "title",
+     "title": [
+      {
+       "type": "text",
+       "text": {
+        "content": "Experimental Physics & Units/Error Analysis",
+        "link": null
+       },
+       "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+       },
+       "plain_text": "Experimental Physics & Units/Error Analysis",
+       "href": null
+      }
+     ]
+    }
+   },
+   "url": "https://app.notion.com/p/Experimental-Physics-Units-Error-Analysis-3b7f4da1663b81e4b99df1718f8ec314",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}

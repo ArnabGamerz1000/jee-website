@@ -1,0 +1,79 @@
+{
+ "data_source_id": "0b28732c-cd6d-4577-8a70-1029b027e81a",
+ "rows": [
+  {
+   "object": "page",
+   "id": "3b7f4da1-663b-80a8-8b83-f35dc77bb8c1",
+   "created_time": "2026-08-09T16:49:00.000Z",
+   "last_edited_time": "2026-08-09T16:49:00.000Z",
+   "created_by": {
+    "object": "user",
+    "id": "f357b1d9-f612-47f5-9c08-0b665efdceb4"
+   },
+   "last_edited_by": {
+    "object": "user",
+    "id": "f357b1d9-f612-47f5-9c08-0b665efdceb4"
+   },
+   "cover": null,
+   "icon": null,
+   "parent": {
+    "type": "data_source_id",
+    "data_source_id": "0b28732c-cd6d-4577-8a70-1029b027e81a",
+    "database_id": "facb8d26-b64a-47ef-9585-f5ee54f46bff"
+   },
+   "in_trash": false,
+   "is_archived": false,
+   "is_locked": false,
+   "properties": {
+    "Date": {
+     "id": "AnQX",
+     "type": "date",
+     "date": null
+    },
+    "Mood": {
+     "id": "Du~K",
+     "type": "select",
+     "select": null
+    },
+    "Hours Studied": {
+     "id": "%5DHRn",
+     "type": "number",
+     "number": null
+    },
+    "Maths": {
+     "id": "%5EK%5Bm",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "Questions Solved": {
+     "id": "_%3C%7DX",
+     "type": "number",
+     "number": null
+    },
+    "What I studied": {
+     "id": "b~Nl",
+     "type": "rich_text",
+     "rich_text": []
+    },
+    "Chemistry": {
+     "id": "n%5ESt",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "Physics": {
+     "id": "rvd%7B",
+     "type": "checkbox",
+     "checkbox": false
+    },
+    "Day": {
+     "id": "title",
+     "type": "title",
+     "title": []
+    }
+   },
+   "url": "https://app.notion.com/p/3b7f4da1663b80a88b83f35dc77bb8c1",
+   "public_url": null,
+   "archived": false
+  }
+ ]
+}
