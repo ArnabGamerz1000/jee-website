@@ -150,7 +150,7 @@ function shell(active, content){
   document.body.innerHTML = `
   <header class="top">
     <div class="topin">
-      <div class="logo"><em>JEE</em> 2027 · Drop-Year Command Center</div>
+      <div class="logo"><em>JEE 2027</em> · Command Center</div>
       <div class="qline" id="qline" title="click for another · press Q for fullscreen"></div>
       <button class="ghost" onclick="Store.load(true).then(()=>location.reload())">↻ Sync from Notion</button>
       <div class="countdown"><b id="cd"></b><span>days to Mains · 22 Jan 2027</span></div>
