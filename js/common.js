@@ -27,7 +27,7 @@ function pring(pct, opts={}){
   const grad = opts.grad||"pg-accent";
   const r = (dim/2)-4, c = 2*Math.PI*r;
   const off = c*(1-Math.max(0,Math.min(100,pct))/100);
-  return `<div class="pring ${size}"><svg viewBox="0 0 ${dim} ${dim}">
+  return `<div class="pring ${size}" data-p="${Math.round(pct)}"><svg viewBox="0 0 ${dim} ${dim}">
     <circle class="track" cx="${dim/2}" cy="${dim/2}" r="${r}"/>
     <circle class="fill" cx="${dim/2}" cy="${dim/2}" r="${r}" stroke="url(#${grad})"
       stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"/>
