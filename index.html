@@ -1,8 +1,8 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>JEE 2027 — Overview</title><link rel="stylesheet" href="style.css?v=4">
+<title>JEE 2027 — Overview</title><link rel="stylesheet" href="style.css?v=5">
 </head><body>
-<script src="js/common.js?v=4"></script>
+<script src="js/common.js?v=5"></script>
 <script>
 (async function(){
   await Store.load();
@@ -35,7 +35,7 @@
     ${card(pct+"%","syllabus coverage",pct, covTip(),{ring:true})}
     ${card(mastered+"/"+total,"chapters mastered",100*mastered/total, chTip(masteredL),{ring:true})}
     ${card(inprog,"in progress",100*inprog/total, chTip(inprogL),{ring:true})}
-    ${card(revision,"needs revision",100*revision/total, chTip(revisionL),{ring:true,cls:"warn"})}
+    ${card(revision,"needs revision",100*revision/total, chTip(revisionL),{ring:true,cls:"rev"})}
     ${card(notstarted,"not started",100*notstarted/total, chTip(notstartedL),{ring:true,cls:"warn"})}
     ${card(qs.toLocaleString("en-IN"),"questions solved",Math.min(100,qs/50), qsTip(),{ring:true})}
     ${card(hrs7.toFixed(1)+"h","studied last 7 days",Math.min(100,hrs7/70*100), hrsTip(),{ring:true})}

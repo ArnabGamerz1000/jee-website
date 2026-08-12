@@ -7,6 +7,7 @@
   --phys:#5aa2ff; --chem:#4ade80; --math:#c084fc;
   --high:#f87171; --med:#fbbf24; --low:#64748b;
   --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+  --rev:#fb923c;
   --glow-accent:0 0 12px rgba(125,155,255,.35), 0 0 32px rgba(125,155,255,.12);
   --glow-phys:0 0 12px rgba(90,162,255,.35), 0 0 32px rgba(90,162,255,.10);
   --glow-chem:0 0 12px rgba(74,222,128,.35), 0 0 32px rgba(74,222,128,.10);
@@ -99,11 +100,13 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
 .pring[data-p="0"] .txt{color:var(--faint);font-weight:500}
 .pring.warn .fill{stroke:var(--warn)}
 .pring.warn .txt{color:var(--warn)}
+.pring.rev .fill{stroke:var(--rev)}
+.pring.rev .txt{color:var(--rev)}
 .pring.sm{width:40px;height:40px}.pring.sm .txt{font-size:10px}
 .pring.lg{width:72px;height:72px}.pring.lg .txt{font-size:15px}
 
 /* overview cards */
-.cards{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:20px}
+.cards{grid-template-columns:repeat(auto-fit,minmax(132px,1fr));margin-top:20px}
 .card{background:linear-gradient(180deg,rgba(148,163,184,.035),transparent 45%),var(--panel);
   border:1px solid var(--border);border-radius:var(--r);padding:16px;
   transition:border-color .18s,transform .18s,box-shadow .18s}
@@ -113,6 +116,7 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
 .card .bar{height:4px;background:rgba(148,163,184,.10);border-radius:3px;margin-top:12px;overflow:hidden}
 .card .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:3px;transition:width .6s ease}
 .card.warn .bar i{background:linear-gradient(90deg,var(--warn),#fcd34d)}
+.card.rev .bar i{background:linear-gradient(90deg,var(--rev),#fdba74)}
 
 /* hover detail tooltips on overview cards */
 .card.hastip{position:relative}
