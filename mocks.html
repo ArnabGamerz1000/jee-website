@@ -11,11 +11,12 @@
   const best = mocks.reduce((m,x)=>Math.max(m,x.Total||0),0);
 
   shell("mocks.html", `
+  ${pgradDefs()}
   <div class="grid cards" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
     <div class="card"><div class="num">${mocks.length}</div><div class="lbl">tests taken</div></div>
     <div class="card"><div class="num">${full.length}</div><div class="lbl">full mocks</div></div>
-    <div class="card"><div class="num">${best||"—"}</div><div class="lbl">best total</div></div>
-    <div class="card"><div class="num">${mocks.length?Math.round(mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length):"—"}</div><div class="lbl">average total</div></div>
+    <div class="card"><div class="num">${best||"—"}</div><div class="lbl">best total</div><div style="margin-top:10px">${pring(best?Math.round(100*best/300):0,{size:"sm",grad:"pg-chem"})}</div></div>
+    <div class="card"><div class="num">${mocks.length?Math.round(mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length):"—"}</div><div class="lbl">average total</div><div style="margin-top:10px">${pring(mocks.length?Math.round(100*mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length/300):0,{size:"sm"})}</div></div>
   </div>
 
   <h2 class="sec">Score progression</h2>
@@ -44,7 +45,7 @@
   <tbody>${mocks.slice().reverse().map(m=>`<tr>
     <td>${fmt(m.Date)}</td><td>${esc(m.Test||"")}</td><td>${esc(m.Type||"")}</td>
     <td>${m.Physics??"—"}</td><td>${m.Chemistry??"—"}</td><td>${m.Maths??"—"}</td>
-    <td><b>${m.Total??"—"}</b><div class="scorebar" style="width:70px"><i style="width:${Math.min(100,100*(m.Total||0)/300)}%"></i></div></td>
+    <td><b>${m.Total??"—"}</b><div style="width:70px;margin-top:4px">${pbar(Math.min(100,100*(m.Total||0)/300),{cls:"thin"})}</div></td>
     <td>${m["Percentile est."]??m.Percentile??"—"}</td><td class="muted" style="max-width:260px">${esc(m["Mistakes/Lessons"]||m.Mistakes||"")}</td></tr>`).join("")
     || '<tr><td colspan="9" class="muted">No tests logged yet.</td></tr>'}</tbody></table>`);
 

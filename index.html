@@ -29,14 +29,20 @@
     .sort((a,b)=>a["Target Date"].localeCompare(b["Target Date"])).slice(0,8);
 
   shell("index.html", `
+  ${pgradDefs()}
   <div class="grid cards">
-    ${card(pct+"%","syllabus coverage",pct, covTip())}
-    ${card(mastered+"/"+total,"chapters mastered",100*mastered/total, chTip(masteredL))}
-    ${card(inprog,"in progress",100*inprog/total, chTip(inprogL))}
-    ${card(notstarted,"not started",100*notstarted/total, chTip(notstartedL))}
-    ${card(qs.toLocaleString("en-IN"),"questions solved",Math.min(100,qs/50), qsTip())}
-    ${card(hrs7.toFixed(1)+"h","studied last 7 days",Math.min(100,hrs7/70*100), hrsTip())}
-    ${card(mocks,"mocks taken",Math.min(100,mocks*10), mockTip())}
+    ${card(pct+"%","syllabus coverage",pct, covTip(),{ring:true})}
+    ${card(mastered+"/"+total,"chapters mastered",100*mastered/total, chTip(masteredL),{ring:true})}
+    ${card(inprog,"in progress",100*inprog/total, chTip(inprogL),{ring:true})}
+    ${card(notstarted,"not started",100*notstarted/total, chTip(notstartedL),{ring:true})}
+    ${card(qs.toLocaleString("en-IN"),"questions solved",Math.min(100,qs/50), qsTip(),{ring:true})}
+    ${card(hrs7.toFixed(1)+"h","studied last 7 days",Math.min(100,hrs7/70*100), hrsTip(),{ring:true})}
+    ${card(mocks,"mocks taken",Math.min(100,mocks*10), mockTip(),{ring:true})}
+  </div>
+
+  <h2 class="sec">Coverage by subject</h2>
+  <div class="panel">
+    ${subjBars()}
   </div>
 
   <h2 class="sec">Next up — chapters due soonest</h2>
@@ -63,8 +69,21 @@
     if(c._left===0) return "due today";
     return `due ${fmt(c["Target Date"])} · ${c._left}d`;
   }
-  function card(num,lbl,p,detail){
-    return `<div class="card${detail?" hastip":""}"><div class="num">${num}</div><div class="lbl">${lbl}</div><div class="bar"><i style="width:${Math.max(0,Math.min(100,p||0))}%"></i></div>${detail?`<div class="tip"><div class="tipin">${detail}</div></div>`:""}</div>`;
+  function card(num,lbl,p,detail,opts={}){
+    const ring = opts.ring ? `<div style="margin-top:10px">${pring(p,{size:"sm"})}</div>` : "";
+    return `<div class="card${detail?" hastip":""}"><div class="num">${num}</div><div class="lbl">${lbl}</div>${ring}<div class="bar"><i style="width:${Math.max(0,Math.min(100,p||0))}%"></i></div>${detail?`<div class="tip"><div class="tipin">${detail}</div></div>`:""}</div>`;
+  }
+  function subjBars(){
+    const byS = {}; ch.forEach(c=>{ (byS[c.Subject]=byS[c.Subject]||[0,0])[0]+=c._done?1:0; byS[c.Subject][1]++; });
+    const smap = {Physics:"phys", Chemistry:"chem", Maths:"math"};
+    return Object.entries(byS).map(([s,[d,t]])=>{
+      const p = Math.round(100*d/t);
+      return `<div style="display:flex;align-items:center;gap:14px;padding:8px 0">
+        <span style="width:100px;font-size:13px;color:var(--muted)">${SUBJ_ICON[s]||""} ${s}</span>
+        <div style="flex:1">${pbar(p,{cls:smap[s]||""})}</div>
+        <span style="width:70px;text-align:right;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums">${d}/${t} · ${p}%</span>
+      </div>`;
+    }).join("");
   }
   function chTip(list){
     if(!list.length) return '<div class="muted">None right now</div>';
@@ -99,7 +118,7 @@
     return `<div class="panel"><b>${t}</b> ${live?'<span class="chip High" style="margin-left:6px">ACTIVE</span>':''}
       <div class="muted" style="font-size:12px;margin:4px 0 8px">${d}</div>
       <div style="font-size:13px">${desc}</div>
-      <div class="scorebar" style="margin-top:12px"><i style="width:${p}%"></i></div>
+      <div style="margin-top:12px">${pbar(p,{cls:"thick"})}</div>
       <div class="muted" style="font-size:11px;margin-top:4px">${p}% elapsed</div></div>`;
   }
 })();

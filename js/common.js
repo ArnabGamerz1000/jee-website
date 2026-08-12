@@ -9,6 +9,37 @@ function fmt(d){ if(!d) return "—"; const x=new Date(d); return x.toLocaleDate
 function dUntil(d){ if(!d) return null; return Math.ceil((new Date(d) - new Date())/86400000); }
 function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
+/* ---------- progress UI helpers ---------- */
+/* injects shared SVG gradient defs once; call before using pring() */
+function pgradDefs(){
+  if(document.getElementById("pgrad-defs")) return "";
+  return `<svg width="0" height="0" style="position:absolute" id="pgrad-defs" aria-hidden="true"><defs>
+    <linearGradient id="pg-accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7d9bff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="pg-phys" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5aa2ff"/><stop offset="1" stop-color="#8ab8ff"/></linearGradient>
+    <linearGradient id="pg-chem" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4ade80"/><stop offset="1" stop-color="#7ee8a8"/></linearGradient>
+    <linearGradient id="pg-math" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#d4a8fc"/></linearGradient>
+  </defs></svg>`;
+}
+/* progress ring: pring(65) or pring(65,{size:"lg",grad:"pg-phys",cls:"phys"}) */
+function pring(pct, opts={}){
+  const size = opts.size||"";           // "", "sm", "lg"
+  const dim = size==="sm"?40 : size==="lg"?72 : 52;
+  const grad = opts.grad||"pg-accent";
+  const r = (dim/2)-4, c = 2*Math.PI*r;
+  const off = c*(1-Math.max(0,Math.min(100,pct))/100);
+  return `<div class="pring ${size}"><svg viewBox="0 0 ${dim} ${dim}">
+    <circle class="track" cx="${dim/2}" cy="${dim/2}" r="${r}"/>
+    <circle class="fill" cx="${dim/2}" cy="${dim/2}" r="${r}" stroke="url(#${grad})"
+      stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"/>
+  </svg><div class="txt">${Math.round(pct)}%</div></div>`;
+}
+/* progress bar: pbar(65) or pbar(65,{cls:"phys thick"}) */
+function pbar(pct, opts={}){
+  const cls = opts.cls||"";
+  const w = Math.max(0,Math.min(100,pct||0));
+  return `<div class="pbar ${cls}"><i style="width:${w}%"></i></div>`;
+}
+
 /* ---------- data store ---------- */
 const Store = {
   data:null,
