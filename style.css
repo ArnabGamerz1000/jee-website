@@ -7,6 +7,10 @@
   --phys:#5aa2ff; --chem:#4ade80; --math:#c084fc;
   --high:#f87171; --med:#fbbf24; --low:#64748b;
   --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+  --glow-accent:0 0 12px rgba(125,155,255,.35), 0 0 32px rgba(125,155,255,.12);
+  --glow-phys:0 0 12px rgba(90,162,255,.35), 0 0 32px rgba(90,162,255,.10);
+  --glow-chem:0 0 12px rgba(74,222,128,.35), 0 0 32px rgba(74,222,128,.10);
+  --glow-math:0 0 12px rgba(192,132,252,.35), 0 0 32px rgba(192,132,252,.10);
   --r:14px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -62,6 +66,38 @@ button.act:active{transform:scale(.97)}
 button.ghost{background:none;border:1px solid var(--border2);color:var(--muted);padding:6px 12px;border-radius:9px;cursor:pointer;font-size:12.5px;transition:color .15s,border-color .15s}
 button.ghost:hover{color:var(--text);border-color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+/* ---------- progress system ---------- */
+/* animated gradient bar with optional shimmer sweep */
+.pbar{position:relative;height:6px;background:var(--panel2);border-radius:99px;overflow:hidden}
+.pbar i{display:block;height:100%;border-radius:99px;position:relative;
+  background:linear-gradient(90deg,var(--accent),var(--accent2));
+  transition:width .8s cubic-bezier(.2,.8,.3,1);
+  box-shadow:var(--glow-accent)}
+.pbar i::after{content:"";position:absolute;inset:0;border-radius:99px;
+  background:linear-gradient(90deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);
+  background-size:200% 100%;animation:shimmer 2.8s ease-in-out infinite}
+.pbar.phys i{background:linear-gradient(90deg,var(--phys),#8ab8ff);box-shadow:var(--glow-phys)}
+.pbar.chem i{background:linear-gradient(90deg,var(--chem),#7ee8a8);box-shadow:var(--glow-chem)}
+.pbar.math i{background:linear-gradient(90deg,var(--math),#d4a8fc);box-shadow:var(--glow-math)}
+.pbar.ok i{background:linear-gradient(90deg,var(--ok),#5eead4);box-shadow:0 0 12px rgba(52,211,153,.3)}
+.pbar.warn i{background:linear-gradient(90deg,var(--warn),#fcd34d)}
+.pbar.bad i{background:linear-gradient(90deg,var(--bad),#fca5a5)}
+.pbar.thick{height:10px}
+.pbar.thin{height:4px}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){.pbar i::after{animation:none}.pring circle{transition:none}}
+
+/* progress ring (SVG) */
+.pring{position:relative;width:52px;height:52px;flex:none}
+.pring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.pring .track{fill:none;stroke:var(--panel2);stroke-width:5}
+.pring .fill{fill:none;stroke:url(#pg-accent);stroke-width:5;stroke-linecap:round;
+  transition:stroke-dashoffset 1s cubic-bezier(.2,.8,.3,1)}
+.pring .txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;font-variant-numeric:tabular-nums}
+.pring.sm{width:40px;height:40px}.pring.sm .txt{font-size:10px}
+.pring.lg{width:72px;height:72px}.pring.lg .txt{font-size:15px}
 
 /* overview cards */
 .cards{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:20px}
