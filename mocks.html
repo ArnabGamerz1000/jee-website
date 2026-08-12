@@ -15,8 +15,8 @@
   <div class="grid cards" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
     <div class="card"><div class="num">${mocks.length}</div><div class="lbl">tests taken</div></div>
     <div class="card"><div class="num">${full.length}</div><div class="lbl">full mocks</div></div>
-    <div class="card"><div class="num">${best||"—"}</div><div class="lbl">best total</div><div style="margin-top:10px">${pring(best?Math.round(100*best/300):0,{size:"sm",grad:"pg-chem"})}</div></div>
-    <div class="card"><div class="num">${mocks.length?Math.round(mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length):"—"}</div><div class="lbl">average total</div><div style="margin-top:10px">${pring(mocks.length?Math.round(100*mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length/300):0,{size:"sm"})}</div></div>
+    <div class="card"><div class="num">${best||"—"}</div><div class="lbl">best total</div>${best?`<div style="margin-top:10px">${pring(Math.round(100*best/300),{size:"sm",grad:"pg-chem"})}</div>`:""}</div>
+    <div class="card"><div class="num">${mocks.length?Math.round(mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length):"—"}</div><div class="lbl">average total</div>${mocks.length?`<div style="margin-top:10px">${pring(Math.round(100*mocks.reduce((s,m)=>s+(m.Total||0),0)/mocks.length/300),{size:"sm"})}</div>`:""}</div>
   </div>
 
   <h2 class="sec">Score progression</h2>
