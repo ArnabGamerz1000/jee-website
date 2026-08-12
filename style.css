@@ -105,8 +105,10 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
 .pring.sm{width:40px;height:40px}.pring.sm .txt{font-size:10px}
 .pring.lg{width:72px;height:72px}.pring.lg .txt{font-size:15px}
 
-/* overview cards */
-.cards{grid-template-columns:repeat(auto-fit,minmax(132px,1fr));margin-top:20px}
+/* overview cards — deliberate 4x2 grid (no orphan wrap), 2 cols on small screens */
+.cards{grid-template-columns:repeat(4,1fr);margin-top:20px}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:420px){.cards{grid-template-columns:1fr}}
 .card{background:linear-gradient(180deg,rgba(148,163,184,.035),transparent 45%),var(--panel);
   border:1px solid var(--border);border-radius:var(--r);padding:16px;
   transition:border-color .18s,transform .18s,box-shadow .18s}
@@ -120,19 +122,19 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
 
 /* hover detail tooltips on overview cards */
 .card.hastip{position:relative}
-.card.hastip:hover{border-color:var(--border2)}
+.card.hastip:hover{border-color:var(--border2);z-index:70}
 .card .tip{position:absolute;left:50%;top:100%;width:min(320px,86vw);z-index:60;
   padding-top:12px; /* bridges the card→tooltip gap so hover is continuous */
   opacity:0;visibility:hidden;pointer-events:none;
   transform:translate(-50%,-6px) scale(.97);
   transition:opacity .18s ease,transform .22s cubic-bezier(.2,.8,.3,1.15),visibility .18s}
-/* edge cards: pin tooltip inward so it never clips off-screen */
-.cards>.card.hastip:first-child .tip{left:0;transform:translate(0,-6px) scale(.97)}
-.cards>.card.hastip:first-child:hover .tip,.cards>.card.hastip:first-child:focus-within .tip{transform:translate(0,0) scale(1)}
-.cards>.card.hastip:first-child .tip::after{left:40px;transform:none}
-.cards>.card.hastip:last-child .tip{left:auto;right:0;transform:translate(0,-6px) scale(.97)}
-.cards>.card.hastip:last-child:hover .tip,.cards>.card.hastip:last-child:focus-within .tip{transform:translate(0,0) scale(1)}
-.cards>.card.hastip:last-child .tip::after{left:auto;right:40px;transform:none}
+/* edge cards: pin tooltip inward so it never clips off-screen (4-col grid) */
+.cards>.card.hastip:nth-child(4n+1) .tip{left:0;transform:translate(0,-6px) scale(.97)}
+.cards>.card.hastip:nth-child(4n+1):hover .tip,.cards>.card.hastip:nth-child(4n+1):focus-within .tip{transform:translate(0,0) scale(1)}
+.cards>.card.hastip:nth-child(4n+1) .tip::after{left:40px;transform:none}
+.cards>.card.hastip:nth-child(4n) .tip{left:auto;right:0;transform:translate(0,-6px) scale(.97)}
+.cards>.card.hastip:nth-child(4n):hover .tip,.cards>.card.hastip:nth-child(4n):focus-within .tip{transform:translate(0,0) scale(1)}
+.cards>.card.hastip:nth-child(4n) .tip::after{left:auto;right:40px;transform:none}
 .card .tip::after{content:"";position:absolute;top:5px;left:50%;transform:translateX(-50%);
   border:7px solid transparent;border-bottom-color:var(--border2)}
 .card .tipin{background:rgba(22,27,40,.97);border:1px solid var(--border2);border-radius:12px;padding:10px 12px;
