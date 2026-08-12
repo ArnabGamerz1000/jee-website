@@ -1,8 +1,8 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>JEE 2027 — Overview</title><link rel="stylesheet" href="style.css?v=3">
+<title>JEE 2027 — Overview</title><link rel="stylesheet" href="style.css?v=4">
 </head><body>
-<script src="js/common.js?v=3"></script>
+<script src="js/common.js?v=4"></script>
 <script>
 (async function(){
   await Store.load();
@@ -10,8 +10,9 @@
   const total = ch.length;
   const masteredL = ch.filter(c=>c.Status==="Mastered");
   const inprogL = ch.filter(c=>["Theory Started","Theory Done","Practice Started","Practice Done"].includes(c.Status));
+  const revisionL = ch.filter(c=>c.Status==="Needs Revision");
   const notstartedL = ch.filter(c=>c.Status==="Not Started");
-  const mastered = masteredL.length, inprog = inprogL.length, notstarted = notstartedL.length;
+  const mastered = masteredL.length, inprog = inprogL.length, revision = revisionL.length, notstarted = notstartedL.length;
   const qs = ch.reduce((s,c)=>s+(c["Questions Solved"]||0),0);
   const doneN = ch.filter(c=>c._done).length;
   const pct = Math.round(100*doneN/total);
@@ -34,6 +35,7 @@
     ${card(pct+"%","syllabus coverage",pct, covTip(),{ring:true})}
     ${card(mastered+"/"+total,"chapters mastered",100*mastered/total, chTip(masteredL),{ring:true})}
     ${card(inprog,"in progress",100*inprog/total, chTip(inprogL),{ring:true})}
+    ${card(revision,"needs revision",100*revision/total, chTip(revisionL),{ring:true,cls:"warn"})}
     ${card(notstarted,"not started",100*notstarted/total, chTip(notstartedL),{ring:true,cls:"warn"})}
     ${card(qs.toLocaleString("en-IN"),"questions solved",Math.min(100,qs/50), qsTip(),{ring:true})}
     ${card(hrs7.toFixed(1)+"h","studied last 7 days",Math.min(100,hrs7/70*100), hrsTip(),{ring:true})}

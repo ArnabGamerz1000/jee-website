@@ -122,6 +122,13 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
   opacity:0;visibility:hidden;pointer-events:none;
   transform:translate(-50%,-6px) scale(.97);
   transition:opacity .18s ease,transform .22s cubic-bezier(.2,.8,.3,1.15),visibility .18s}
+/* edge cards: pin tooltip inward so it never clips off-screen */
+.cards>.card.hastip:first-child .tip{left:0;transform:translate(0,-6px) scale(.97)}
+.cards>.card.hastip:first-child:hover .tip,.cards>.card.hastip:first-child:focus-within .tip{transform:translate(0,0) scale(1)}
+.cards>.card.hastip:first-child .tip::after{left:40px;transform:none}
+.cards>.card.hastip:last-child .tip{left:auto;right:0;transform:translate(0,-6px) scale(.97)}
+.cards>.card.hastip:last-child:hover .tip,.cards>.card.hastip:last-child:focus-within .tip{transform:translate(0,0) scale(1)}
+.cards>.card.hastip:last-child .tip::after{left:auto;right:40px;transform:none}
 .card .tip::after{content:"";position:absolute;top:5px;left:50%;transform:translateX(-50%);
   border:7px solid transparent;border-bottom-color:var(--border2)}
 .card .tipin{background:rgba(22,27,40,.97);border:1px solid var(--border2);border-radius:12px;padding:10px 12px;
