@@ -34,7 +34,7 @@
     ${card(pct+"%","syllabus coverage",pct, covTip(),{ring:true})}
     ${card(mastered+"/"+total,"chapters mastered",100*mastered/total, chTip(masteredL),{ring:true})}
     ${card(inprog,"in progress",100*inprog/total, chTip(inprogL),{ring:true})}
-    ${card(notstarted,"not started",100*notstarted/total, chTip(notstartedL),{ring:true})}
+    ${card(notstarted,"not started",100*notstarted/total, chTip(notstartedL),{ring:true,cls:"warn"})}
     ${card(qs.toLocaleString("en-IN"),"questions solved",Math.min(100,qs/50), qsTip(),{ring:true})}
     ${card(hrs7.toFixed(1)+"h","studied last 7 days",Math.min(100,hrs7/70*100), hrsTip(),{ring:true})}
     ${card(mocks,"mocks taken",Math.min(100,mocks*10), mockTip(),{ring:true})}
@@ -70,8 +70,9 @@
     return `due ${fmt(c["Target Date"])} · ${c._left}d`;
   }
   function card(num,lbl,p,detail,opts={}){
-    const ring = opts.ring ? `<div style="margin-top:10px">${pring(p,{size:"sm"})}</div>` : "";
-    return `<div class="card${detail?" hastip":""}"><div class="num">${num}</div><div class="lbl">${lbl}</div>${ring}<div class="bar"><i style="width:${Math.max(0,Math.min(100,p||0))}%"></i></div>${detail?`<div class="tip"><div class="tipin">${detail}</div></div>`:""}</div>`;
+    const ring = opts.ring ? `<div style="margin-top:10px">${pring(p,{size:"sm",cls:opts.cls||""})}</div>` : "";
+    const cardCls = "card"+(detail?" hastip":"")+(opts.cls?" "+opts.cls:"");
+    return `<div class="${cardCls}"><div class="num">${num}</div><div class="lbl">${lbl}</div>${ring}<div class="bar"><i style="width:${Math.max(0,Math.min(100,p||0))}%"></i></div>${detail?`<div class="tip"><div class="tipin">${detail}</div></div>`:""}</div>`;
   }
   function subjBars(){
     const byS = {}; ch.forEach(c=>{ (byS[c.Subject]=byS[c.Subject]||[0,0])[0]+=c._done?1:0; byS[c.Subject][1]++; });
@@ -93,8 +94,12 @@
   }
   function covTip(){
     const byS = {}; ch.forEach(c=>{ (byS[c.Subject]=byS[c.Subject]||[0,0])[0]+=c._done?1:0; byS[c.Subject][1]++; });
+    const bySt = {}; ch.forEach(c=>{ (bySt[c.Status]=bySt[c.Status]||[]).push(c); });
+    const order = ["Mastered","Practice Done","Practice Started","Theory Done","Theory Started","Needs Revision","Not Started"];
     return `<div class="tiphead">${doneN} of ${total} chapters done (Practice Done / Mastered)</div>`
-      + Object.entries(byS).map(([s,[d,t]])=>`<div class="ti"><span>${SUBJ_ICON[s]||""} ${s}</span><span class="st">${d}/${t} · ${Math.round(100*d/t)}%</span></div>`).join("");
+      + Object.entries(byS).map(([s,[d,t]])=>`<div class="ti"><span>${SUBJ_ICON[s]||""} ${s}</span><span class="st">${d}/${t} · ${Math.round(100*d/t)}%</span></div>`).join("")
+      + `<div class="tiphead" style="margin-top:10px">All statuses</div>`
+      + order.filter(s=>bySt[s]).map(s=>`<div class="ti"><span>${s}</span><span class="st">${bySt[s].length}</span></div>`).join("");
   }
   function qsTip(){
     return `<div class="tiphead">${qs.toLocaleString("en-IN")} questions total</div>`

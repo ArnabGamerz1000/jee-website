@@ -69,7 +69,7 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
 
 /* ---------- progress system ---------- */
 /* animated gradient bar with optional shimmer sweep */
-.pbar{position:relative;height:6px;background:var(--panel2);border-radius:99px;overflow:hidden}
+.pbar{position:relative;height:6px;background:rgba(148,163,184,.10);border-radius:99px;overflow:hidden}
 .pbar i{display:block;height:100%;border-radius:99px;position:relative;
   background:linear-gradient(90deg,var(--accent),var(--accent2));
   transition:width .8s cubic-bezier(.2,.8,.3,1);
@@ -91,12 +91,14 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
 /* progress ring (SVG) */
 .pring{position:relative;width:52px;height:52px;flex:none}
 .pring svg{width:100%;height:100%;transform:rotate(-90deg)}
-.pring .track{fill:none;stroke:var(--panel2);stroke-width:5}
+.pring .track{fill:none;stroke:rgba(148,163,184,.22);stroke-width:5}
 .pring .fill{fill:none;stroke:url(#pg-accent);stroke-width:5;stroke-linecap:round;
   transition:stroke-dashoffset 1s cubic-bezier(.2,.8,.3,1)}
 .pring .txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
   font-size:12px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--muted)}
-.pring[data-p="0"] .txt{color:var(--faint)}
+.pring[data-p="0"] .txt{color:var(--faint);font-weight:500}
+.pring.warn .fill{stroke:var(--warn)}
+.pring.warn .txt{color:var(--warn)}
 .pring.sm{width:40px;height:40px}.pring.sm .txt{font-size:10px}
 .pring.lg{width:72px;height:72px}.pring.lg .txt{font-size:15px}
 
@@ -108,8 +110,9 @@ button.ghost:hover{color:var(--text);border-color:var(--accent)}
 .card:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.35)}
 .card .num{font-size:27px;font-weight:700;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
 .card .lbl{font-size:11px;color:var(--faint);margin-top:2px;text-transform:uppercase;letter-spacing:.7px}
-.card .bar{height:4px;background:var(--panel2);border-radius:3px;margin-top:12px;overflow:hidden}
+.card .bar{height:4px;background:rgba(148,163,184,.10);border-radius:3px;margin-top:12px;overflow:hidden}
 .card .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:3px;transition:width .6s ease}
+.card.warn .bar i{background:linear-gradient(90deg,var(--warn),#fcd34d)}
 
 /* hover detail tooltips on overview cards */
 .card.hastip{position:relative}
